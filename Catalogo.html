@@ -4,74 +4,81 @@
 <head>
     <meta charset="UTF-8">
     <title>Catálago</title>
+    <link rel="stylesheet" href="style-catalogo.css" />
 </head>
 <header>
-
-    <div id="logo">
-        <img src="Imagens/logo.png" />
+    <div id="menu_principal">
+        <div id="img_logo">
+            <img src="imagens/logo.png" />
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Catalogo.html">Catálogo</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+            </ul>
+        </nav>
     </div>
-
-
-    <div id="nav">
-        <ul>
-            <li><a href="Home.html" title="Home">Home</a></li>
-            <li><a href="Catalogo.html" target="_blank" title="Catálogo">Catálogo</a></li>
-            <li><a href="Contato.html" target="_blank" title="contato">Contato</a></li>
-        </ul>
     </div>
-
-    <img src="Imagens/captainmarvelheader.jpg" width="100%" />
-
-    <div id="img_titlle">
-        <img src="Imagens/captainmarveltitle.png" width="25%"/>
+    <div class="img_titlle">
+        <img src="Imagens/captainmarveltitle.png" width="30%" />
     </div>
 </header>
-
 <main>
-    <h1>Catálogo</h1>
-    <!---Imagem + texto + preço + botão-->
-    <p><img src="Imagens/Produtos_Catalogo/brave.jpg" width="25%" /></p>
-    <p>Lorem ipsum dolor sit amet , consectetur adipiscing elit.</p>
-    <p>
-    <h3><b>R$250,00</b></h3>
-    </p>
-    <p><button type="button"> Comprar </button></p>
+    <h1 id="titulo"> Catálogo </h1>
 
-    <p><img src="Imagens/Produtos_Catalogo/capitamarvel.jpg" width="25%" /></p>
-    <p>Lorem ipsum dolor sit amet , consectetur adipiscing elit.</p>
-    <p>
-    <h3><b>R$250,00</b></h3>
-    </p>
-    <p><button type="button"> Comprar </button></p>
+    <div class="bloco-catalogo">
+        <div class="produto_catalogo">
+            <img src="Imagens/Produtos_Catalogo/brave.jpg" width="25%" />
+            <h2>Lorem ipsum dolor sit amet , consectetur adipiscing elit.</h2>
+            <h3><b>R$250,00</b></h3>
+            <button class="button"> Comprar </button>
+        </div>
+    </div>
 
-    <p><img src="Imagens/Produtos_Catalogo/charizard.jpg" width="25%" /></p>
-    <p>Lorem ipsum dolor sit amet , consectetur adipiscing elit.</p>
-    <p>
-    <h3><b>R$250,00</b></h3>
-    </p>
-    <p><button type="button"> Comprar </button></p>
+    <div class="bloco_catalogo">
+        <div class="produto_catalogo">
+            <img src="Imagens/Produtos_Catalogo/capitamarvel.jpg" width="25%" />
+            <h2>Lorem ipsum dolor sit amet , consectetur adipiscing elit.</h2>
+            <h3><b>R$250,00</b></h3>
+            <button class="button"> Comprar </button>
+        </div>
+    </div>
 
-    <p><img src="Imagens/Produtos_Catalogo/chucky.jpg" width="25%" /></p>
-    <p>Lorem ipsum dolor sit amet , consectetur adipiscing elit.</p>
-    <p>
-    <h3><b>R$250,00</b></h3>
-    </p>
-    <p><button type="button"> Comprar </button></p>
+    <div class="bloco_catalogo">
+        <div class="produto_catalogo">
+            <img src="Imagens/Produtos_Catalogo/charizard.jpg" width="25%" />
+            <h2>Lorem ipsum dolor sit amet , consectetur adipiscing elit.</h2>
+            <h3><b>R$250,00</b></h3>
+            <button class="button"> Comprar </button>
+        </div>
+    </div>
 
-    <p><img src="Imagens/Produtos_Catalogo/goku.jpg" width="25%" /></p>
+    <div class="bloco_catalogo">
+        <div class="produto_catalogo">
+            <img src="Imagens/Produtos_Catalogo/chucky.jpg" width="25%" />
+            <h2>Lorem ipsum dolor sit amet , consectetur adipiscing elit.</h2>
+            <h3><b>R$250,00</b></h3>
+            <button class="button"> Comprar </button>
+        </div>
 
-    <p>Lorem ipsum dolor sit amet , consectetur adipiscing elit.</p>
-    <p>
-    <h3><b>R$250,00</b></h3>
-    </p>
-    <p><button type="button"> Comprar </button></p>
+        <div class="bloco_catalogo">
+            <div class="produto_catalogo">
+                <img src="Imagens/Produtos_Catalogo/goku.jpg" width="25%" />
+                <h2>Lorem ipsum dolor sit amet , consectetur adipiscing elit.</h2>
+                <h3><b>R$250,00</b></h3>
+                <button class="button"> Comprar </button>
+            </div>
+        </div>
 
-    <p><img src="Imagens/Produtos_Catalogo/johnwick.jpg" width="25%" /></p>
-    <p>Lorem ipsum dolor sit amet , consectetur adipiscing elit.</p>
-    <p>
-    <h3><b>R$250,00</b></h3>
-    </p>
-    <p><button type="button"> Comprar </button></p>
+        <div class="bloco_catalogo">
+            <div class="produto_catalogo">
+                ><img src="Imagens/Produtos_Catalogo/johnwick.jpg" width="25%" />
+                <h2>Lorem ipsum dolor sit amet , consectetur adipiscing elit</h2>.
+                <h3><b>R$250,00</b></h3>
+                <button class="button" type="button"> Comprar </button>
+            </div>
+        </div>
 </main>
 </body>
 

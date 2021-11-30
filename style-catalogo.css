@@ -1,0 +1,64 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(Imagens/captainmarvelheader.jpg);
+    background-size: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+}
+#img_logo{
+    display: inline;
+    width: 15%;
+}
+.navbar {
+    display: inline-block;
+}
+.navbar ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.navbar ul li {
+    display: inline-block;
+    margin-right: 40px;
+}
+.navbar ul li a {
+
+     color: #ffffff;
+     text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+ }
+#titulo {
+    color: #525051;
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.bloco-catalogo {
+    margin: 20px;
+
+ }
+
+.produto-catalogo {
+    width: 33%;
+}
+.button {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, rgba(254, 116, 103, 1) 0%, rgba(252, 56, 54, 1) 100%);
+    height: 45px;
+    width: 150px;
+    border-radius: 30px;
+    border: none;
+}
+ h2 {
+    font-weight: bold;
+    color: #292929;
+ }

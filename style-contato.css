@@ -1,0 +1,75 @@
+body {
+    font-family: open-sans;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(Imagens/contatoheader.jpg);
+    background-size: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+#img_logo{
+    display: inline;
+    width: 15%;
+}
+.navbar {
+    display: inline-block;
+}
+.navbar ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.navbar ul li {
+    display: inline-block;
+    margin-right: 40px;
+}
+.navbar ul li a {
+
+     color: #ffffff;
+     text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+ }
+
+ #titulo {
+    color: #525051;
+    text-align: center;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.texto_contato{
+    display:inline;
+    align-items: center;
+    font-family: sans-serif;
+}
+.box{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border:#525051 solid 1px;
+}
+
+.big_box{
+    height: 150px;
+    width: 300px;
+    border:#525051 solid 1px;
+    border-radius: 10px;
+    display: inline-block;
+    font-family: sans-serif;
+
+}
+.button {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, rgba(254, 116, 103, 1) 0%, rgba(252, 56, 54, 1) 100%);
+    height: 45px;
+    width: 600px;
+    border-radius: 20px;
+    border: none;
+    align-items: center;
+}
